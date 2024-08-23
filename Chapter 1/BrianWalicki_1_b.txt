@@ -1,0 +1,33 @@
+---
+Name: Brian Walicki
+Date Created: 8/23/2024
+---
+Program Description:
+This program creates a .txt file '8ball_responses.txt' then asks the user for a yes or no question. It then responds with a random output from 8ball_responses.txt.
+---
+Logical Steps:
+1. Create 8ball_responses.txt.
+2. Read 8ball_responses.txt into a list.
+3. Warn user to press 'x' to quit.
+4. Prompt user to enter a yes or no question.
+5. Respond to user with random phrase from 8ball_responses.txt.
+6. Loop to step 4.
+---
+Variables:
+1. questions: Contains the phrases to write into 8ball_responses.txt
+2. ls: Local variable to contain list of responses during use
+3. file: The file being read or wrote to
+4. index: Indexed phrase in ls
+5. resp: User response
+---
+Functions:
+1. Function Name: write_phrases
+Description: Creates 8ball_responses.txt from the list questions
+Parameters: N/A
+Returns: None
+2. Function Name: questionnaire
+Description: Reads from 8ball_responses.txt and fills a list ls with the phrases in that .txt
+Parameters: file (file): The file to read from to get responses
+Returns: None
+---
+Link to repository: https://github.com/brianWalicki/COP2373
