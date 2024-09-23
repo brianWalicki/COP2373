@@ -1,0 +1,52 @@
+
+BrianWalicki_2_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 9/22/2024
+
+---
+
+Program Description: 
+Analyzes monthly expenses given by the user
+
+---
+
+Logical Steps:  
+1. call analyze(get_data())
+2. loop until x is pressed and get input from user
+3. build a dictionary from the user's input
+4. return dict (expenses) and feed it to analyze()
+5. loop for every entry in expenses finding the lowest/highest value while adding them all
+6. return lowest/low_key/highest/high_key/total
+
+---
+
+Variables:  
+1. {expenses}: dict to be filled by user input
+2. key: key to be added to {expenses}
+3. data: value to be added to {expenses}
+4. total: total of all values in {expeneses}
+5. highest: highest value in {expeneses}
+6. high_key: key to the highest value in {expeneses}
+7. lowest: lowest value in {expeneses}
+8. low_key: key to the lowest value in {expeneses}
+
+---
+
+Functions:
+1. Function Name: get_data
+   Description: builds a dictionary from user input
+   Parameters: N/A
+   Returns: {expenses}
+
+2. Function Name: analyze
+   Description: finds lowest/low_key/highest/high_key via comparison
+		and finds the total value of every value in {expenses}
+   Parameters: {expenses}
+   Returns: None: Prints lowest/low_key/highest/high_key/total
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
