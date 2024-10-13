@@ -1,0 +1,49 @@
+
+BrianWalicki_6_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 10/13/2024
+
+---
+
+Program Description: 
+Determines if inputted phone number, SSN, and zip code is valid by checking against regular expressions
+
+---
+
+Logical Steps:  
+1. call main()
+2. ask for user input
+3. call valPhoneNum(), valSSN(), valZIP()
+4. print whether the data is valid or not
+
+---
+
+Variables:  
+1. phoneNum: Contains user inputted phone number
+1. SSN: Contains user inputted SSB
+1. zip: Contains user inputted zip code
+
+---
+
+Functions:
+1. Function Name: valPhoneNum()
+   Description: Checks if user input is correct
+   Parameters: phoneNum
+   Returns: None: Prints Valid or Invalid
+
+2. Function Name: valSSN()
+   Description: Checks if user input is correct
+   Parameters: SSN
+   Returns: None: Prints Valid or Invalid
+
+3. Function Name: valZIP()
+   Description: Checks if user input is correct
+   Parameters: zip
+   Returns: None: Prints Valid or Invalid
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
