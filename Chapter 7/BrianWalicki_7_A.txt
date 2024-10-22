@@ -1,0 +1,41 @@
+
+BrianWalicki_7_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 10/22/2024
+
+---
+
+Program Description: 
+Counts and prints sentences from user input.
+
+---
+
+Logical Steps:  
+1. Call main()
+2. Asks for user input
+3. Reads input by use of regex
+4. Puts sentences into a list
+5. Prints the list and the number of sentences
+
+---
+
+Variables:  
+1. count: Number of sentences
+2. pat: regex pattern
+3. s: user input
+4. m: list of sentences from user input
+
+---
+
+Functions:
+1. Function Name: main  
+   Description: Asks for user input and prints the number of sentences and the sentences
+   Parameters: N/A
+   Returns: None: Prints the number of sentences and the sentences
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
