@@ -1,0 +1,37 @@
+
+BrianWalicki_8_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 10/22/2024
+
+---
+
+Program Description: 
+Reads data from a .csv file and prints it as a table with f-strings
+
+---
+
+Logical Steps:  
+1. Open a file in write mode ('grades.csv')
+2. Reads over each row
+3. Appends data from each row to data[]
+4. Prints as a table
+
+---
+
+Variables:  
+1. data[]: list containing information read from file
+
+---
+
+Functions:
+1. Function Name: read_csv()
+   Description: Returns data from .csv
+   Parameters: filename
+   Returns: data[]
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
