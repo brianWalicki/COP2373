@@ -1,0 +1,68 @@
+
+BrianWalicki_9_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 11/3/2024
+
+---
+
+Program Description: 
+Stores account information as a BankAcct object and has multiple methods to print out information.
+
+---
+
+Logical Steps:  
+1. Call test(name, account_num, funds, rate, days)
+1. Create BankAcct instance
+2. Calls __init__ and assigns the new instance its values
+3. Perform methods from BankAcct in test
+
+---
+
+Variables:  
+1. name: Name of account
+2. account_num: Number of account
+3. funds: Current balance
+4. rate: Current interest rate
+5. days: Days that the interest will apply for
+6. amount: Amount to be added or subtracted from funds
+7. interest: Current interest due depending on days and rate
+
+---
+
+Functions:
+1. Function Name: adjust_rate()
+   Description: Changes rate
+   Parameters: new_rate
+   Returns: None
+
+2. Function Name: withdraw()
+   Description: Lowers self.funds, if possible
+   Parameters: amount
+   Returns: None: Prints 'insufficient funds' if too low
+
+3. Function Name: deposit()
+   Description: increases self.funds
+   Parameters: amount
+   Returns: None
+
+4. Function Name: get_balance()
+   Description: Gets balance (self.funds)
+   Parameters: zip
+   Returns: self.funds
+
+5. Function Name: calc_interest()
+   Description: Calculates the interest due depending on interest and days
+   Parameters: days
+   Returns: interest
+
+6. Function Name: test()
+   Description: tests functions in BankAcct
+   Parameters: name, account_num, funds, rate, days
+   Returns: None: Prints balance, interest, and interest owed
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
