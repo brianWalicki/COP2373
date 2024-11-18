@@ -1,0 +1,57 @@
+
+BrianWalicki_11_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 11/17/2024
+
+---
+
+Program Description: 
+Plays a single hand of poker and replaces what the user requests.
+
+---
+
+Logical Steps:  
+1. Create Deck object 'player' and draws 5 random cards to 'cards_in_play_list'
+2. Asks for user input and adds it to list 'replace_as_int'
+3. Removes similarities from 'cards_in_play_list' compared to 'replace_as_int'
+4. Draws more cards to get back to 5 in 'cards_in_play_list'
+
+---
+
+Variables:  
+1. new_card: Card to be added to 'cards_in_play_list'
+2. player: Instance of Deck
+3. i: Iterator
+4. replace: Input from user
+5. replace_as_int: Cleaned input from user
+
+---
+
+Functions:
+1. Function Name: __init__
+   Description: Initializer
+   Parameters: self, size
+   Returns: None
+
+2. Function Name: deal()
+   Description: Deals a card to add to self's hand
+   Parameters: self
+   Returns: new_card
+
+3. Function Name: new_hand()
+   Description: Creates a new hand
+   Parameters: self
+   Returns: None
+
+4. Function Name: play_and_replace()
+   Description: This program is a game of poker where you can play 1 hand, 
+			then replace some cards in that hand, then prints the hand
+   Parameters: N/A
+   Returns: None
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
