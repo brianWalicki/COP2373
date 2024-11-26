@@ -1,0 +1,43 @@
+
+
+Name: Brian Walicki
+Date Created: 11/26/24
+
+---
+
+Program Description: 
+This program takes a student grade csv file and outputs statistics such as the mean of scores and the number of students who pass
+
+---
+
+Logical Steps:  
+1. Import numpy
+2. Initialize variables counter and score_passing
+3. Read CSV data by opening grades.csv and reading it
+4. Extract grades from the CSV into NumPy array section
+5. Calculate statistics of the grades. Overall and by column
+6. Find passing students and the average score of passing grades
+7. Print all results
+
+---
+
+Variables:  
+1. Counter: Counter for the number of passing students
+2. score_passing: Total of all passings scores
+3. csv: The open CSV file
+4. csv_arr: Array created from grades.csv
+5. section: A section of csv_arr that contains only the int grades
+6. mask: Mask over section that contains only scores >= 60
+7. stats_funcs: Functions to be used in list comprehension
+8. stat_names: Printed along side stats to show what stat is being printed
+9. overall_stats: Statistics taken from the entire grade set
+10. col_stats: Statistics taken from a specific column from the grade set
+
+---
+
+Functions:
+None. Everything is handled by list comprehensions.
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
