@@ -1,0 +1,54 @@
+
+BrianWalicki_13_A
+
+---
+
+Name: Brian Walicki 
+Date Created: 11/29/2024
+
+---
+
+Program Description: 
+This program lists out 10 Florida states and asks the user for a number 0-10, then graphs a 20-year population growth chart at 2% growth rate
+
+---
+
+Logical Steps:  
+1. Import libraries
+2. Initialize list and database
+3. Define available cities
+4. Loop through 'cities' dictionary and create a list of dictionaries in 'population'
+5. Define 'sim_growth(city)'
+6. Simulate the growth of each city 20 times
+7. Generate database of all cities population's over the 20 years
+8. Ask user for input
+9. Plot user's chosen city using 'plot_growth(city)'
+
+---
+
+Variables:  
+1. population_BW: List of dictionaries storing city population data over 20 years
+2. population: List of dictionaries containing city information (ID, city name, year, population)
+3. cities: Dictionary of available cities and their initial population
+4. city_dict: local variable of city being processed within sim_growth
+5. city_data: local variable list of dictionaries of chosen city within plot_growth
+6. years: local variable list of years for chosen city within plot_growth
+7. populations: local variable list of populations for chosen city within plot_growth
+8. usr_choice: integer representing the user's choice of city
+
+---
+
+Functions:
+1. Function Name: sim_growth
+   Description: Simulates the growth of specified city over 20 years
+   Parameters: city
+   Returns: None
+
+2. Function Name: plot_growth
+   Description: Plots a specified city
+   Parameters: city
+   Returns: None
+
+---
+
+Link to repository: https://github.com/brianWalicki/COP2373/tree/main
